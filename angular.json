@@ -108,6 +108,5 @@
     "schematicCollections": [
       "angular-eslint"
     ]
-  },
-  "defaultProject": "angular-todo-app-rilind-daki"
+  }
 }
