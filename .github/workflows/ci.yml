@@ -40,6 +40,7 @@ jobs:
           action: "upload"
           app_location: "/"
           output_location: "dist/angular-todo-app-rilind-daki"
+          skip_app_build: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
